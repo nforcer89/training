@@ -1,0 +1,25 @@
+#daily, #AddEx {
+    padding: 5px;
+}
+
+#sets, #reps {
+    width: 100px;
+}
+
+.exblock, #AddElem {
+    margin-top: 10px;
+}
+
+.buttons, #makeplan {
+    cursor: pointer;
+}
+
+.buttons:hover, #makeplan:hover {
+    background-color: yellow;
+}
+
+#makeplan {
+    padding: 5px;
+    margin-top: 10px;
+    width: 150px;
+}

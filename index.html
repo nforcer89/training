@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Training plan v2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tp2.css">
+    </head>
+    <body>
+        <form id="daily" method="get">
+            <h1>Дневник тренировок</h1>
+            <label>
+                Дата тренировки:    
+                <input  type="date" class="information" id="date">
+            </label>
+            <div class="exblock">
+                <input  type="text" class="information inputinfo" id="exercise" placeholder="Упражнение">
+                <input  type="text" class="information inputinfo" id="sets" placeholder="Подходы">
+                <input  type="text" class="information inputinfo" id="reps" placeholder="Повторения">
+                <input type="button" class="buttons inputinfo" id="DelElem" value="Удалить">
+            </div>
+        <input type="button" class="buttons" id="AddElem" value="Добавить">  
+        <br>
+        <input type="button" id="makeplan" value="Создать план">    
+        </form>
+        <hr>
+        
+        <script src="tp2.js"></script>
+    </body>
+
+</html>
